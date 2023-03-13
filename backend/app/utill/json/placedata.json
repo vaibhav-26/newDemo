@@ -1,0 +1,1050 @@
+{
+  "location": [
+    {
+      "name": "Safal",
+      "floor": [
+        {
+          "name": "1st Floor",
+          "wings": [
+            {
+              "name": "old",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                }
+              ]
+            },
+            {
+              "name": "new",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4th Floor",
+          "wings": [
+            {
+              "name": "office",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                },
+                {
+                  "name": "E-1",
+                  "row": "E"
+                },
+                {
+                  "name": "E-2",
+                  "row": "E"
+                },
+                {
+                  "name": "E-3",
+                  "row": "E"
+                },
+                {
+                  "name": "E-4",
+                  "row": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7th Floor",
+          "wings": [
+            {
+              "name": "Wing-1",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "A-6",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "B-5",
+                  "row": "B"
+                },
+                {
+                  "name": "B-6",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "C-5",
+                  "row": "C"
+                },
+                {
+                  "name": "C-6",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                },
+                {
+                  "name": "D-5",
+                  "row": "D"
+                },
+                {
+                  "name": "E-1",
+                  "row": "E"
+                },
+                {
+                  "name": "E-2",
+                  "row": "E"
+                },
+                {
+                  "name": "E-3",
+                  "row": "E"
+                },
+                {
+                  "name": "E-4",
+                  "row": "E"
+                },
+                {
+                  "name": "E-5",
+                  "row": "E"
+                }
+              ]
+            },
+            {
+              "name": "Wing-2",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "A-6",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "C-5",
+                  "row": "C"
+                },
+                {
+                  "name": "C-6",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                },
+                {
+                  "name": "D-5",
+                  "row": "D"
+                },
+                {
+                  "name": "E-1",
+                  "row": "E"
+                },
+                {
+                  "name": "E-2",
+                  "row": "E"
+                },
+                {
+                  "name": "E-3",
+                  "row": "E"
+                }
+              ]
+            },
+            {
+              "name": "Wing-3",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "A-6",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "B-5",
+                  "row": "B"
+                },
+                {
+                  "name": "B-6",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "C-5",
+                  "row": "C"
+                },
+                {
+                  "name": "C-6",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                },
+                {
+                  "name": "E-1",
+                  "row": "E"
+                },
+                {
+                  "name": "E-2",
+                  "row": "E"
+                },
+                {
+                  "name": "E-3",
+                  "row": "E"
+                },
+                {
+                  "name": "E-4",
+                  "row": "E"
+                }
+              ]
+            },
+            {
+              "name": "Wing-4",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "A-6",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "B-5",
+                  "row": "B"
+                },
+                {
+                  "name": "B-6",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "C-5",
+                  "row": "C"
+                },
+                {
+                  "name": "C-6",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                },
+                {
+                  "name": "D-5",
+                  "row": "D"
+                },
+                {
+                  "name": "E-1",
+                  "row": "E"
+                },
+                {
+                  "name": "E-2",
+                  "row": "E"
+                },
+                {
+                  "name": "E-3",
+                  "row": "E"
+                },
+                {
+                  "name": "E-4",
+                  "row": "E"
+                },
+                {
+                  "name": "E-5",
+                  "row": "E"
+                },
+                {
+                  "name": "F-1",
+                  "row": "F"
+                },
+                {
+                  "name": "F-2",
+                  "row": "F"
+                },
+                {
+                  "name": "F-3",
+                  "row": "F"
+                },
+                {
+                  "name": "F-4",
+                  "row": "F"
+                },
+                {
+                  "name": "F-5",
+                  "row": "F"
+                }
+              ]
+            },
+            {
+              "name": "Wing-5",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "A-6",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "B-5",
+                  "row": "B"
+                },
+                {
+                  "name": "B-6",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "C-5",
+                  "row": "C"
+                },
+                {
+                  "name": "C-6",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                }
+              ]
+            },
+            {
+              "name": "Wing-6",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "A-6",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "B-5",
+                  "row": "B"
+                },
+                {
+                  "name": "B-6",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "C-5",
+                  "row": "C"
+                },
+                {
+                  "name": "C-6",
+                  "row": "C"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scarlet",
+      "floor": [
+        {
+          "name": "5th Floor",
+          "wings": [
+            {
+              "name": "1st Office",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "A-5",
+                  "row": "A"
+                },
+                {
+                  "name": "A-6",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "B-5",
+                  "row": "B"
+                },
+                {
+                  "name": "B-6",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "C-5",
+                  "row": "C"
+                },
+                {
+                  "name": "C-6",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                },
+                {
+                  "name": "D-5",
+                  "row": "D"
+                },
+                {
+                  "name": "D-6",
+                  "row": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "6th Floor",
+          "wings": [
+            {
+              "name": "1st Office",
+              "desks": [
+                {
+                  "name": "A-1",
+                  "row": "A"
+                },
+                {
+                  "name": "A-2",
+                  "row": "A"
+                },
+                {
+                  "name": "A-3",
+                  "row": "A"
+                },
+                {
+                  "name": "A-4",
+                  "row": "A"
+                },
+                {
+                  "name": "B-1",
+                  "row": "B"
+                },
+                {
+                  "name": "B-2",
+                  "row": "B"
+                },
+                {
+                  "name": "B-3",
+                  "row": "B"
+                },
+                {
+                  "name": "B-4",
+                  "row": "B"
+                },
+                {
+                  "name": "C-1",
+                  "row": "C"
+                },
+                {
+                  "name": "C-2",
+                  "row": "C"
+                },
+                {
+                  "name": "C-3",
+                  "row": "C"
+                },
+                {
+                  "name": "C-4",
+                  "row": "C"
+                },
+                {
+                  "name": "D-1",
+                  "row": "D"
+                },
+                {
+                  "name": "D-2",
+                  "row": "D"
+                },
+                {
+                  "name": "D-3",
+                  "row": "D"
+                },
+                {
+                  "name": "D-4",
+                  "row": "D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

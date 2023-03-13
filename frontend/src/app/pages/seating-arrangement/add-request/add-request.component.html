@@ -1,0 +1,44 @@
+<div class="container">
+    <h3 >ADD REQUEST</h3>
+    <form class="mt-2 example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Name</mat-label>
+            <input type="text" matInput>
+        </mat-form-field>
+        <div class="select-section">
+            <mat-form-field appearance="fill" class="select1">
+                <mat-label>Building</mat-label>
+                <mat-select [ngModel]="selectedBuilding"  (ngModelChange)="onSelectBuilding($event)" [ngModelOptions]="{standalone: true}">
+                    <mat-option [value]="seat.name" *ngFor="let seat of building">{{seat.name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="select ml-2" appearance="fill">
+                <mat-label>Place</mat-label>
+                <mat-select [ngModel]="selectedPlace"  [ngModelOptions]="{standalone: true}">
+                    <mat-option (click)="onSelectingPlace($event)" [value]="place" *ngFor="let place of placeChosen">{{place}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="input">
+                <mat-label>Current Desk</mat-label>
+                <input type="text" matInput>
+            </mat-form-field>
+        </div>
+               
+        <mat-form-field class="example-full-width">
+            <mat-label>New Desk</mat-label>
+            <input type="text" [value]="dialogueData.building + ':' + dialogueData.place + ':' + dialogueData.seatNo"
+                matInput>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>Project Name</mat-label>
+            <input type="text" matInput>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>Description</mat-label>
+            <textarea matInput></textarea>
+        </mat-form-field>
+        <button class="button1 mt-2 " mat-raised-button >Submit</button>
+        <button class="button2 mt-2 ml-2" mat-raised-button  (click)="onCancelClick()">Cancel</button>
+    </form>
+</div>
+

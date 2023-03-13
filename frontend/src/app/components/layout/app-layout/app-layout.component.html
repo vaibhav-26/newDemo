@@ -1,0 +1,66 @@
+<mat-toolbar class="mat-elevation-z8">
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+        <div style="display: flex; align-items: center;">
+            <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+                <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+                <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+            </button>
+            <img style="width: 150px;" src="../../../../assets/images/logo-white.png" />
+        </div>
+        <div style="display: flex; align-items: center;">
+            <button mat-fab class="avatar-button" [matMenuTriggerFor]="menu">
+
+                <img class="avatar mat-elevation-z8" src="https://ui-avatars.com/api/?name=John+Doe" />
+
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item><mat-icon>person</mat-icon><span>Profile</span></button>
+                <mat-divider class="profile-divider"></mat-divider>
+                <button mat-menu-item (click)="logout()"><mat-icon>logout</mat-icon><span>Logout</span></button>
+            </mat-menu>
+        </div>
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+        <!-- <img class="avatar mat-elevation-z8" src="https://source.unsplash.com/c_GmwfHBDzk/200x200" />
+
+        <h4 class="name">John Smith</h4>
+        <p class="designation">Software Engineer</p> -->
+
+        <!-- <mat-divider></mat-divider> -->
+        <button mat-button class="menu-button" routerLink="/dashboard">
+            <mat-icon>home</mat-icon>
+            <span>Dashboard</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/desks">
+            <mat-icon>desktop_mac</mat-icon>
+            <span>Desks</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/requests">
+            <mat-icon>request_quote</mat-icon>
+            <span>Requests</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/users">
+            <mat-icon>group</mat-icon>
+            <span>Users</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/projects">
+            <mat-icon>group</mat-icon>
+            <span>Projects</span>
+        </button>
+
+        <!-- <mat-divider></mat-divider>
+
+        <button mat-button class="menu-button" routerLink="/help">
+            <mat-icon>help</mat-icon>
+            <span>Help</span>
+        </button> -->
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="content mat-elevation-z8">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,89 @@
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .header{
+    // margin-top: 2%;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+
+  section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  .container{
+    padding-left: 20px;
+    height: auto;
+    // background-color:#009688;
+    // background: url('../../assets/images/s2.jpg');
+    background-repeat: no-repeat;  
+    background-size: cover;
+  }
+  // .select{
+  //   width: 10%;
+  // }
+
+  // .select1{
+  //   width: 10%;
+  // }
+//   .button1{
+
+//   }
+
+//   .button2{
+
+//   }
+
+.select{
+  width: 30%;
+  margin-left: 2%;
+
+}
+
+.select1{
+  width: 30%;
+}
+.select-section{
+  display: flex;
+}
+.input{
+  width: 35.8%;
+  margin-left: 2%;
+}
+
+// NEWWWWWWWWWWWWWWWWWWWW

@@ -1,0 +1,122 @@
+<!-- <div class="">
+  <div class="seat-container">
+    <div class="section1">
+      <h5>
+        Seating Arrangement
+      </h5>
+      <mat-form-field class="select1" appearance="fill">
+        <mat-label>Location</mat-label>
+        <mat-select [ngModel]="selectedBuilding" (ngModelChange)="onSelectBuilding($event)"
+          [ngModelOptions]="{standalone: true}">
+          <mat-option [value]="seat.name" *ngFor="let seat of building">{{seat.name}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="select ml-2" appearance="fill">
+        <mat-label>Place</mat-label>
+        <mat-select [ngModel]="selectedPlace" [ngModelOptions]="{standalone: true}">
+          <mat-option (click)="onSelectingPlace($event)" [value]="place"
+            *ngFor="let place of placeChosen">{{place}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+
+    <div class="section2" *ngFor="let seatrow of seatmap; let i=index  ">
+
+      <div class="seatrow container">
+        <div *ngIf="seatChartConfig?.showRowsLabel">
+          <div class="row-label"> {{seatrow.seatRowLabel}} </div>
+        </div>
+        <div class="seats" *ngFor="let seatobj of seatrow.seats">
+          <div class="seat-item seat-space" style="color:white ; background-color:white"
+            *ngIf="seatobj.seatLabel == ''"> &nbsp; </div>
+
+          <div (click)="getSeatNo($event)" placement="top"
+            [ngClass]="{ 'seat-item' : true , 'seat-available' : seatobj.status == 'available' ,'seat-booked' : seatobj.status == 'booked' ,'seat-unavailable' : seatobj.status == 'unavailable' }"
+            *ngIf="(seatobj.status == 'available' || seatobj.status == 'booked' )&& seatobj.seatLabel != ''">
+            {{seatobj.seatNo}}</div>
+
+          <div placement="top" [ngClass]="{ 'seat-item' : true , 'seat-unavailable' : true }"
+            *ngIf="seatobj.status == 'unavailable' && seatobj.seatLabel != ''">{{seatobj.seatNo}}</div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div> -->
+<!-- NEWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW -->
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+</div>
+<div class="col-lg-12 seat-container">
+  <div class="main-section" style="display: flex;">
+      <h3 class="heading">
+        Seating Arrangement
+      </h3>
+      <!--  -->
+      <div class="select-section" style="margin-left: 620px;">
+        <mat-form-field appearance="fill">
+          <mat-label>Location</mat-label>
+          <mat-select [ngModel]="selectedBuilding" (ngModelChange)="onSelectBuilding($event)" [ngModelOptions]="{standalone: true}">
+            <mat-option [value]="seat.name" *ngFor="let seat of building" [value]="seat.name">
+              {{seat.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="ml-5" appearance="fill" style="margin-left: 10px;">
+          <mat-label>Place</mat-label>
+          <mat-select [ngModel]="selectedPlace" [ngModelOptions]="{standalone: true}">
+            <mat-option   (click)="onSelectingPlace($event)" [value]="place"
+            *ngFor="let place of placeChosen" >
+              {{place}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      
+  </div>
+  
+  
+  <div *ngFor="let seatrow of seatmap ">
+    <!-- <div class="col-12 pricing-label"
+      *ngIf="seatChartConfig?.showRowWisePricing && seatrow.seatPricingInformation != ''">
+      {{seatrow.seatPricingInformation}}</div> -->
+    <div class="seatrow container">
+      <div *ngIf="seatChartConfig?.showRowsLabel">
+        <div class="row-label"> {{seatrow.seatRowLabel}} </div>
+      </div>
+      <div (click)="getSeatNo($event)" *ngFor="let seatobj of seatrow.seats">
+        <div class="seat-item seat-space" style="color:white ; background-color:white" *ngIf="seatobj.seatLabel == ''">
+          &nbsp; </div>
+        <div  placement="top"
+          [ngClass]="{ 'seat-item' : true , 'seat-available' : seatobj.status == 'available' ,'seat-booked' : seatobj.status == 'booked' ,'seat-unavailable' : seatobj.status == 'unavailable' }"
+          (click)="selectSeat(seatobj)"
+          *ngIf="(seatobj.status == 'available' || seatobj.status == 'booked' )&& seatobj.seatLabel != ''">
+          {{seatobj.seatNo}}</div>
+
+        <div  placement="top" [ngClass]="{ 'seat-item' : true , 'seat-unavailable' : true }"
+          *ngIf="seatobj.status == 'unavailable' && seatobj.seatLabel != ''">{{seatobj.seatNo}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- *ngIf="cart?.selectedSeats?.length > 0" -->
+<!-- <div class="continaer-fluid">
+  <div class="col-lg-12 summary-bar">
+    <div class="col-lg-4">
+      <div>
+        <h5>Total Selected : {{ cart?.selectedSeats?.length }}</h5>
+        <h5>Total Amount :&nbsp;&nbsp; {{cart.totalamount}} Rs</h5>
+      </div>
+    </div>
+    <div class="col-lg-8 selected-seats">
+      <h5 class="col-lg-12 no-padding">Selected Seats : </h5>
+      <span *ngFor="let seatLabel of cart.selectedSeats" class="badge badge-primary">{{seatLabel}}</span>
+    </div>
+    <button [disabled]="cart?.selectedSeats?.length == 0" type="button" class="btn btn-primary">Book Now</button>
+  </div>
+  <div class="col-lg-12 book-area">
+
+  </div>
+</div> -->

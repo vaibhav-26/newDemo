@@ -1,0 +1,38 @@
+<div class="limiter">
+    <div class="container-login100" style="background-image: url('assets/images/back-3.png');">
+        <!-- <div class="d-md-flex p-h-40">
+            <img src="assets/images/logo/logo.png" alt="">
+        </div> -->
+        <div class="wrap-login100 pt-3 pb-5">
+            <span class="login100-form-title pb-4 heading">
+                VDesk  Login
+            </span>
+            <form class="login100-form validate-form pb-3 pt-5 form" [formGroup]="LoginuserForm" (ngSubmit)="submitForm()">
+
+                <div class="wrap-input100 validate-input" data-validate="Enter username">
+                    <input class="input100" type="text"  formControlName='userName' placeholder="User name">
+                    <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+                    <small class="mt-4 text-danger" style="margin-left: 80px;" *ngIf=" invalidloginflag || f['userName'].touched && f['userName'].invalid ">Please Enter username *</small>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Enter password">
+                    <input class="input100" type="password"  formControlName='password' placeholder="Password" maxlength="15">
+                    <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+                    <small class="mt-4 text-danger" style="margin-left: 80px;" *ngIf="invalidloginflag || f['password'].touched && f['password'].invalid">Please Enter Password *</small>
+                </div>
+
+                <div class="container-login100-form-btn mt-5">
+                    <button [class.auth-spinner]="loading" [disabled]="loading" class="login100-form-btn">
+                        Login
+                    </button>
+                </div>
+                <br>
+                <div class="container-login100-form-btn  fpass">
+                <a class="forgot-text " routerLink="/forgotpassword">Forgot Password</a></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<lib-toastify-toast-container></lib-toastify-toast-container>
+<div id="dropDownSelect1"></div>
